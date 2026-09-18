@@ -30,7 +30,7 @@ public class HomePage {
 	private WebElement morelink;
 
 	@FindBy(linkText = "Products")
-	private WebElement products;
+	private WebElement productslink;
 
 	@FindBy(xpath="//img[@src='themes/softed/images/user.PNG']")
 	private WebElement adminimg;
@@ -64,7 +64,7 @@ public class HomePage {
 	}
 
 	public WebElement getProducts() {
-		return products;
+		return productslink;
 	}
 
 	public WebElement getSignoutlink() {
